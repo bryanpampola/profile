@@ -121,6 +121,6 @@
         return false;
       });
 
-  });      
+  });
 
 }(jQuery));
