@@ -1,0 +1,153 @@
+{
+    "back-end" : {
+        "total" : 12,
+        "confidence_percentage": 90,
+        "stack" : [
+            {
+                "name" : "C#",
+                "years" : 12,
+                "description" : "C Sharp programming language"
+            },
+            {
+                "name" : "VB.NET",
+                "years" : 1,
+                "description" : "Visual Basic .NET programming language"
+            },
+            {
+                "name" : "Window Forms, Background Service, WPF",
+                "years" : 2,
+                "description" : "Desktop applications"
+            },
+            {
+                "name" : "ASP.NET Web Forms",
+                "years" : 2,
+                "description" : "ASP. NET Web Forms"
+            },
+            {
+                "name" : "ASP.NET MVC",
+                "years" : 2,
+                "description" : "ASP.NET MVC"
+            },
+            {
+                "name" : "ASP.NET Web API",
+                "years" : 8,
+                "description" : "ASP.NET Web API"
+            },
+            {
+                "name" : ".NET Xamarin Forms",
+                "years" : 1,
+                "description" : "Cross platform mobile app"
+            }
+        ]
+    },
+    "front-end": {
+        "total": 3,
+        "confidence_percentage": 50,
+        "stack": [
+            {
+                "name" : "React",
+                "years" : 2,
+                "description" : "React - Javascript library, framework"
+            },
+            {
+                "name" : "Angular",
+                "years" : 1,
+                "description" : "Angular - Typescript framework"
+            },
+            {
+                "name" : "HTML5 CSS3",
+                "years" : 5,
+                "description" : "HTML5 CSS3"
+            },
+            {
+                "name" : "Bootstrap",
+                "years" : 3,
+                "description" : "Bootstrap framework"
+            },
+            {
+                "name" : "Material UI",
+                "years" : 1,
+                "description" : "Material UI framework"
+            }
+        ]
+    },
+    "persistence": {
+        "total": 12,
+        "confidence_percentage": 90,
+        "stack": [
+            {
+                "name" : "Microsoft SQL Server",
+                "years" : 10,
+                "description" : "Microsoft SQL Server"
+            },
+            {
+                "name" : "DynamoDB",
+                "years" : 2,
+                "description" : "AWS DynamoDB"
+            },
+            {
+                "name" : "PostgreSQL",
+                "years" : 1,
+                "description" : "PostgreSQL"
+            },
+            {
+                "name" : "SQLite",
+                "years" : 1,
+                "description" : "SQLite"
+            },
+            {
+                "name" : "DocumentDB",
+                "years" : 1,
+                "description" : "Azure DocumentDB"
+            },
+            {
+                "name" : "Redis Cache",
+                "years" : 1,
+                "description" : "Redis Cache"
+            }
+        ]
+    },
+    "cloud" : {
+        "total": 6,
+        "confidence_percentage": 7,
+        "stack": [
+            {
+                "name" : "Microsoft Azure",
+                "years" : 4,
+                "description" : "Microsoft Azure"
+            },
+            {
+                "name" : "Amazon Web Service (AWS)",
+                "years" : 2,
+                "description" : "Amazon Web Service (AWS)"
+            }
+        ]
+    },
+    "version-control": {
+        "total": 7,
+        "confidence_percentage": 8,
+        "stack": [
+            {
+                "name" : "Bitbucket",
+                "years" : 4,
+                "description" : "Bitbucket"
+            },
+            {
+                "name" : "Bamboo Stash",
+                "years" : 2,
+                "description" : "Bamboo Stash"
+            },
+            {
+                "name" : "Github Enterprise",
+                "years" : 1,
+                "description" : "Github Enterprise"
+            },
+            {
+                "name" : "Azure DevOps Repository",
+                "years" : 1,
+                "description" : "Azure DevOps Repository"
+            }
+        ]
+    }
+
+}
