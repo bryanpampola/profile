@@ -290,18 +290,17 @@ body {
     width: 100%;
 }
 
-.main_img_container {
-    text-align: center;
-}
-
 #main_img {
+    text-align: center;
     height: 80%;
     width: 80%;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
 }
 
 @media screen and (max-width: 768px) {
     .main_container {
-        display: grid;
+        display: flex;
         grid-template-columns: auto;
         align-items: center;
         justify-self: center;
@@ -330,7 +329,12 @@ body {
     }
 
     #main_img {
-        max-height: 450px;
+        width: 35%;
+        margin-right: -5%;
+        top: 0%;
+        bottom: 0%;
+        left: auto;
+        right: 0%;
     }
 }
 
@@ -371,17 +375,13 @@ body {
 
 .skills h1 {
     padding: 10px;
-    background-color: #7895CB;
-    background-image: linear-gradient(to left, 
-    #7895CB 0%,
-    #1a4ca9 0%,
-    #4173c3 90%);
-    font-size: 4rem;
+    background-image: linear-gradient(to top, #7895CB 0%, #4A55A2 100%);
+    background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    font-weight: 900;
+    font-size: 4rem;
 }
 
 .skills_container {
@@ -473,8 +473,7 @@ body {
 }
 
 .skills_card_front.active {
-    transform: scale(0, 1.04);
-    transition: 0.4s ease-in;
+    visibility: hidden;
     cursor: pointer;
 }
 
@@ -484,7 +483,7 @@ body {
     font-size: 1.2rem;
     color: #287ece;
     padding: 20px;
-    background-color: #fff;
+    /* background-color: #fff; */
     height: 525px;
 }
 
@@ -498,7 +497,7 @@ body {
     background-image: linear-gradient(
         to top,
         rgba(255, 255, 255, 0.972) 5%,
-        rgba(124, 177, 230, 0.307) 100%
+        rgba(28, 132, 236, 0.307) 100%
     );
     transform: scale(1.024);
     transition: 0.6s ease-in-out;
@@ -508,12 +507,26 @@ body {
     position: absolute;
     top: 440px;
     text-align: center;
-    background-color: #4A55A2;
-    background-image: linear-gradient(to top, #cb78b3 0%, #4A55A2 70%);
-    background-size: 80%;
+    background-image: linear-gradient(to top, #7895CB 0%, #4A55A2 100%);
+    background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-size: 1.3rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .skills h1 {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skills h1 {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
 }
