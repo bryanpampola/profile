@@ -344,12 +344,13 @@ body {
     }
 
     .main_content h1 {
-        font-size: 2rem;
-        margin-top: 3rem;
+        font-size: 4.5rem;
+        margin-top: 2rem;
     }
 
     .main_content h2 {
-        font-size: 2rem;
+        margin-top: 0.5rem;
+        font-size: 2.5rem;
     }
 
     .main_content p {
@@ -362,6 +363,9 @@ body {
         margin: 2.5rem;
     }
 
+    #main_img {
+        width: 0%;
+    }
 }
 
 /* Skills Section */
@@ -483,7 +487,6 @@ body {
     font-size: 1.2rem;
     color: #287ece;
     padding: 20px;
-    /* background-color: #fff; */
     height: 525px;
 }
 
@@ -526,7 +529,18 @@ body {
 
 @media screen and (max-width: 480px) {
     .skills h1 {
-        font-size: 2rem;
+        font-size: 4.5rem;
         margin-top: 3rem;
+        text-align: center;
+    }
+
+    .skills_card {
+        height: 250px;
+        width: 250px;
+    }
+
+    .skills_card_back {
+        visibility: hidden;
+        font-size: 1.05rem;
     }
 }
