@@ -385,7 +385,15 @@ body {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    font-size: 4rem;
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.skills p {
+    padding: 10px;
+    color: #5f83a4;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .skills_container {
@@ -403,6 +411,26 @@ body {
     background-size: cover;
     position: relative;
     overflow: hidden;
+}
+
+.skills_card h2 {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    background-color: #4A55A2;
+    background-image: linear-gradient(to top, #cb78b3 0%, #4A55A2 70%);
+    background-size: 80%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.skills_card h3 {
+    position: absolute;
+    top: 450px;
+    left: 30px;
+    color: #fff;
 }
 
 .skills_card:nth-child(1) {
@@ -447,27 +475,6 @@ body {
         rgba(17, 22, 25, 0.307) 100%
     ), url('/assets/img/skills-version.png');
     background-position: 40%;
-}
-
-
-.skills h2 {
-    position: absolute;
-    top: 40px;
-    left: 30px;
-    background-color: #4A55A2;
-    background-image: linear-gradient(to top, #cb78b3 0%, #4A55A2 70%);
-    background-size: 80%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-}
-
-.skills h3 {
-    position: absolute;
-    top: 450px;
-    left: 30px;
-    color: #fff;
 }
 
 .skills_card:hover {
@@ -569,14 +576,14 @@ body {
 
 @media screen and (max-width: 768px) {
     .skills h1 {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
         margin-top: 2rem;
     }
 }
 
 @media screen and (max-width: 480px) {
     .skills h1 {
-        font-size: 4.5rem;
+        font-size: 2.5rem;
         margin-top: 3rem;
         text-align: center;
     }
