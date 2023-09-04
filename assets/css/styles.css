@@ -497,13 +497,55 @@ body {
 
 .skills_card_back.active {
     visibility: visible;
+
+    transform: scale(1.024);
+    color: #fff;
+    transition: 0.6s ease-in-out;
+}
+
+.skills_card.active:nth-child(1) {
     background-image: linear-gradient(
         to top,
         rgba(255, 255, 255, 0.972) 5%,
-        rgba(28, 132, 236, 0.307) 100%
+        rgb(74,53,112) 100%
     );
-    transform: scale(1.024);
-    transition: 0.6s ease-in-out;
+    background-position: 40%;
+}
+
+.skills_card.active:nth-child(2) {
+    background-image: linear-gradient(
+        to top,
+        rgba(255, 255, 255, 0.972) 5%,
+        rgb(167,209,221) 100%
+    );
+    background-position: 40%;
+}
+
+.skills_card.active:nth-child(3) {
+    background-image: linear-gradient(
+        to top,
+        rgba(255, 255, 255, 0.972) 5%,
+        rgb(103,131,156) 100%
+    );
+    background-position: 40%;
+}
+
+.skills_card.active:nth-child(4) {
+    background-image: linear-gradient(
+        to top,
+        rgba(255, 255, 255, 0.972) 5%,
+        rgb(77,123,165) 100%
+    );
+    background-position: 40%;
+}
+
+.skills_card.active:nth-child(5) {
+    background-image: linear-gradient(
+        to top,
+        rgba(255, 255, 255, 0.972) 5%,
+        rgb(190,102,86) 100%
+    );
+    background-position: 40%;
 }
 
 .skills_card_back h2 {
